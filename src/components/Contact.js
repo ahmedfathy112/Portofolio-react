@@ -26,7 +26,7 @@ function Contact() {
   };
   return (
     <>
-      <section className=" bg-black rounded-[20px] min-h-screen p-[30px] pt-10 flex justify-center flex-col w-full">
+      <section className=" bg-black rounded-[20px] min-h-screen p-[30px] pt-10 flex justify-center flex-col w-full max-md:min-h-[130vh]">
         <article className="flex flex-row w-full justify-start">
           <h2 className="text-white text-[40px] font-bold font-['Roboto Slab']">
             Contact

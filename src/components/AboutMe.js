@@ -1,7 +1,7 @@
 function AboutMe() {
   return (
     <>
-      <section className="w-full flex flex-col p-[30px] pt-20 bg-black rounded-[20px] min-h-[130vh] max-md:min-h-[160vh]">
+      <section className="w-full flex flex-col p-[30px] pt-20 bg-black rounded-[20px] min-h-[130vh] max-md:min-h-[180vh]">
         <article className="w-full flex flex-col">
           <div className="flex flex-row w-full">
             <h2 className="text-white text-[40px] font-bold font-['Roboto Slab']">
@@ -43,7 +43,7 @@ function AboutMe() {
                 manner, aiming to captivate users' attention"
               </p>
             </div>
-            <div className="w-[350px] max-md:h-[300px] h-[250px] m-[25px] bg-black rounded-xl border-2 border-neutral-800 flex flex-col p-[18px]">
+            <div className="w-[350px] max-md:h-[340px] h-[250px] m-[25px] bg-black rounded-xl border-2 border-neutral-800 flex flex-col p-[18px]">
               <div className="w-full flex flex-row">
                 <i className="fa-solid fa-mobile text-yellow-500 text-[40px]"></i>
                 <h2 className="text-white text-[26px] font-medium font-['Poppins'] ml-[16px]">
