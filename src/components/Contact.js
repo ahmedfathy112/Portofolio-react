@@ -33,8 +33,8 @@ function Contact() {
           </h2>
           <div className="w-[300px] h-[0px] mt-[35px] ml-[20px] border-2 border-red-500"></div>
         </article>
-        <article className="w-[60%] h-[588px] flex flex-col mt-[35px] translate-x-[30%] bg-black rounded-[20px] border-2 border-neutral-800 p-[30px] pl-[40px] max-md:w-full max-md:translate-x-0">
-          <div className="w-[486.67px]">
+        <article className="w-[60%]  h-[588px] flex flex-col mt-[35px] translate-x-[30%] bg-black rounded-[20px] border-2 border-neutral-800 p-[30px] pl-[40px] max-md:pl-[20px] max-md:w-full max-md:translate-x-0">
+          <div className="w-[486.67px] max-md:w-[310px]">
             <span className="text-neutral-400 text-[25px] font-normal font-['Poppins'] uppercase leading-[41px]">
               I
             </span>
@@ -87,7 +87,7 @@ function Contact() {
               <input
                 name="message"
                 type="text"
-                className="bg-transparent border-b-2 rounded-md  border-zinc-800 outline-none text-white"
+                className="bg-transparent border-b-2 rounded-md  border-zinc-800 outline-none text-white max-md:h-[40px]"
               ></input>
             </div>
             <button

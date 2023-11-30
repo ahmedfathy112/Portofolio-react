@@ -15,7 +15,7 @@ function Resume(props) {
           <div className="w-[300px] h-[0px] border-2 border-red-500 ml-3 mt-[35px]"></div>
         </article>
         <article className="flex flex-row w-full mt-5 max-md:flex-col">
-          <div className="w-[50%] max-md:mb-7">
+          <div className="w-[50%] max-md:mb-7 max-md:w-full">
             <div className="flex flex-row">
               <i className="fa-solid fa-graduation-cap text-rose-500 text-3xl mr-3"></i>
               <h2 className="text-white text-[26px] font-medium font-['Poppins']">
@@ -24,7 +24,7 @@ function Resume(props) {
             </div>
             <div className="felx flex-col w-full mt-[40px]">
               <div
-                className="w-[450px] h-[120px] bg-black rounded-xl border-2 border-neutral-800 p-[20px]"
+                className="w-[450px] max-md:w-full h-[120px] bg-black rounded-xl border-2 border-neutral-800 p-[20px]"
                 data-aos="fade-right"
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out"
@@ -50,7 +50,7 @@ function Resume(props) {
                 </div>
               </div>
               <div
-                className="w-[450px] mt-[20px] h-[120px] bg-black rounded-xl border-2 border-neutral-800 p-[20px]"
+                className="w-[450px] max-md:w-full max-md:h-[155px] mt-[20px] h-[120px] bg-black rounded-xl border-2 border-neutral-800 p-[20px]"
                 data-aos="fade-right"
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out"
@@ -72,7 +72,7 @@ function Resume(props) {
                 </div>
               </div>
               <div
-                className="w-[450px] mt-[20px] h-[120px] bg-black rounded-xl border-2 border-neutral-800 p-[20px]"
+                className="w-[450px] max-md:w-full mt-[20px] h-[120px] bg-black rounded-xl border-2 border-neutral-800 p-[20px]"
                 data-aos="fade-right"
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out"
@@ -95,7 +95,7 @@ function Resume(props) {
               </div>
             </div>
           </div>
-          <div className="w-[50%]">
+          <div className="w-[50%] max-md:w-full">
             <div className="flex flex-row">
               <i className="fa-solid fa-briefcase text-rose-500 text-3xl mr-[20px]"></i>
               <h2 className="text-white text-[26px] font-medium font-['Poppins']">
@@ -104,7 +104,7 @@ function Resume(props) {
             </div>
             <div className="felx flex-col w-full mt-[40px]">
               <div
-                className="w-[450px] h-[120px] bg-black rounded-xl border-2 border-neutral-800 p-[20px]"
+                className="w-[450px] max-md:w-full h-[120px] bg-black rounded-xl border-2 border-neutral-800 p-[20px]"
                 data-aos="fade-right"
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out"
@@ -126,7 +126,7 @@ function Resume(props) {
                 </div>
               </div>
               <div
-                className="w-[450px] mt-[20px] h-[120px] bg-black rounded-xl border-2 border-neutral-800 p-[20px]"
+                className="w-[450px] max-md:w-full mt-[20px] h-[120px] bg-black rounded-xl border-2 border-neutral-800 p-[20px]"
                 data-aos="fade-right"
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out"
@@ -148,7 +148,7 @@ function Resume(props) {
                 </div>
               </div>
               <div
-                className="w-[450px] mt-[20px] h-[120px] bg-black rounded-xl border-2 border-neutral-800 p-[20px]"
+                className="w-[450px] max-md:w-full mt-[20px] h-[120px] bg-black rounded-xl border-2 border-neutral-800 p-[20px]"
                 data-aos="fade-right"
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out"

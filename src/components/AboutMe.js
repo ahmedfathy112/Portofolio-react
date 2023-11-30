@@ -10,13 +10,13 @@ function AboutMe() {
             <div className="w-[300px] max-md:w-[200px] h-[0px] border-2 mt-[30px] ml-[20px] border-red-500"></div>
           </div>
           <div className="w-full flex flex-col mt-[30px]">
-            <div className="w-[676px] max-md:w-[450px] text-neutral-400 text-base font-normal font-['Poppins'] leading-7">
+            <div className="w-[676px] max-md:w-[350px] text-neutral-400 text-base font-normal font-['Poppins'] leading-7">
               As a budding Frontend Developer diving into the world of ReactJS,
               JavaScript, HTML, and CSS, my journey is one of curiosity and
               exploration. While I may be new to this dynamic realm, my passion
               for crafting engaging user interfaces drives me forward.
             </div>
-            <div className="w-[676px] max-md:w-[450px] text-neutral-400 text-base font-normal font-['Poppins'] leading-7 mt-5">
+            <div className="w-[676px] max-md:w-[350px] text-neutral-400 text-base font-normal font-['Poppins'] leading-7 mt-5">
               Armed with the foundational knowledge of ReactJS and its allied
               technologies, I am eager to shape the digital landscape, learning
               and growing with every line of code I write. My focus lies in
@@ -30,7 +30,7 @@ function AboutMe() {
             What I do!
           </div>
           <div className="flex flex-row flex-wrap w-full justify-center">
-            <div className="w-[350px] h-[250px] m-[25px] bg-black rounded-xl border-2 border-neutral-800 flex flex-col p-[18px]">
+            <div className="w-[350px] max-md:h-[300px] h-[250px] m-[25px] bg-black rounded-xl border-2 border-neutral-800 flex flex-col p-[18px]">
               <div className="w-full flex flex-row">
                 <i className="fa-solid fa-code text-fuchsia-400 text-[40px]"></i>
                 <h2 className="text-white text-[26px] font-medium font-['Poppins'] ml-[16px]">
@@ -43,7 +43,7 @@ function AboutMe() {
                 manner, aiming to captivate users' attention"
               </p>
             </div>
-            <div className="w-[350px] h-[250px] m-[25px] bg-black rounded-xl border-2 border-neutral-800 flex flex-col p-[18px]">
+            <div className="w-[350px] max-md:h-[300px] h-[250px] m-[25px] bg-black rounded-xl border-2 border-neutral-800 flex flex-col p-[18px]">
               <div className="w-full flex flex-row">
                 <i className="fa-solid fa-mobile text-yellow-500 text-[40px]"></i>
                 <h2 className="text-white text-[26px] font-medium font-['Poppins'] ml-[16px]">
@@ -57,7 +57,7 @@ function AboutMe() {
                 adaptation."
               </p>
             </div>
-            <div className="w-[350px] h-[250px] m-[25px] bg-black rounded-xl border-2 border-neutral-800 flex flex-col p-[18px]">
+            <div className="w-[350px] max-md:h-[300px] h-[250px] m-[25px] bg-black rounded-xl border-2 border-neutral-800 flex flex-col p-[18px]">
               <div className="w-full flex flex-row">
                 <i className="fa-solid fa-chalkboard text-rose-400 text-[40px]"></i>
                 <h2 className="text-white text-[26px] font-medium font-['Poppins'] ml-[16px]">
