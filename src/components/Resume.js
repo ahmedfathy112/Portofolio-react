@@ -24,7 +24,7 @@ function Resume(props) {
             </div>
             <div className="felx flex-col w-full mt-[40px]">
               <div
-                className="w-[450px] max-md:w-full h-[120px] bg-black rounded-xl border-2 border-neutral-800 p-[20px]"
+                className="w-[450px] max-md:w-full h-[120px] bg-black rounded-xl border-2 border-neutral-800 p-[20px] max-md:h-auto"
                 data-aos="fade-right"
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out"
@@ -50,7 +50,7 @@ function Resume(props) {
                 </div>
               </div>
               <div
-                className="w-[450px] max-md:w-full max-md:h-[155px] mt-[20px] h-[120px] bg-black rounded-xl border-2 border-neutral-800 p-[20px]"
+                className="w-[450px] max-md:w-full max-md:h-[155px] mt-[20px] h-[120px] bg-black rounded-xl border-2 border-neutral-800 p-[20px] max-md:h-auto"
                 data-aos="fade-right"
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out"
@@ -72,7 +72,7 @@ function Resume(props) {
                 </div>
               </div>
               <div
-                className="w-[450px] max-md:w-full mt-[20px] h-[120px] bg-black rounded-xl border-2 border-neutral-800 p-[20px]"
+                className="w-[450px] max-md:w-full mt-[20px] h-[120px] bg-black rounded-xl border-2 border-neutral-800 p-[20px] max-md:h-auto"
                 data-aos="fade-right"
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out"
@@ -81,15 +81,15 @@ function Resume(props) {
               >
                 <div>
                   <span className="text-neutral-400 text-sm font-normal font-['Poppins'] leading-[30px]">
-                    2019-2017
+                    2024-Present
                     <br />
                   </span>
                   <span className="text-white text-lg font-normal font-['Poppins'] leading-[30px]">
-                    Ali Abdulwahid Secondary School
+                    Vice Leader For Syntax Team
                   </span>
                   <span className="text-neutral-400 text-base font-normal font-['Poppins'] leading-[30px]">
                     <br />
-                    Algharbiah,Egypt
+                    Mansoura University
                   </span>
                 </div>
               </div>
@@ -104,7 +104,7 @@ function Resume(props) {
             </div>
             <div className="felx flex-col w-full mt-[40px]">
               <div
-                className="w-[450px] max-md:w-full h-[120px] bg-black rounded-xl border-2 border-neutral-800 p-[20px]"
+                className="w-[450px] max-md:w-full h-[120px] bg-black rounded-xl border-2 border-neutral-800 p-[20px] max-md:h-auto"
                 data-aos="fade-right"
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out"
@@ -117,7 +117,7 @@ function Resume(props) {
                     <br />
                   </span>
                   <span className="text-white text-lg font-normal font-['Poppins'] leading-[30px]">
-                    Learning HTML & Css and Projects
+                    Learning HTML & Css & JS
                   </span>
                   <span className="text-neutral-400 text-base font-normal font-['Poppins'] leading-[30px]">
                     <br />
@@ -126,7 +126,7 @@ function Resume(props) {
                 </div>
               </div>
               <div
-                className="w-[450px] max-md:w-full mt-[20px] h-[120px] bg-black rounded-xl border-2 border-neutral-800 p-[20px]"
+                className="w-[450px] max-md:w-full mt-[20px] h-[120px] bg-black rounded-xl border-2 border-neutral-800 p-[20px] max-md:h-auto"
                 data-aos="fade-right"
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out"
@@ -139,16 +139,16 @@ function Resume(props) {
                     <br />
                   </span>
                   <span className="text-white text-lg font-normal font-['Poppins'] leading-[30px]">
-                    Learning JavaScript and Projects
+                    Learning React.Js & Tailwind and Do Projects
                   </span>
                   <span className="text-neutral-400 text-base font-normal font-['Poppins'] leading-[30px]">
                     <br />
-                    Elzero web School
+                    Online Courses
                   </span>
                 </div>
               </div>
               <div
-                className="w-[450px] max-md:w-full mt-[20px] h-[120px] bg-black rounded-xl border-2 border-neutral-800 p-[20px]"
+                className="w-[450px] max-md:w-full mt-[20px] h-[120px] bg-black rounded-xl border-2 border-neutral-800 p-[20px] max-md:h-auto"
                 data-aos="fade-right"
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out"
@@ -161,7 +161,7 @@ function Resume(props) {
                     <br />
                   </span>
                   <span className="text-white text-lg font-normal font-['Poppins'] leading-[30px]">
-                    Learning ReactJS and Projects
+                    Learning Next.Js and Projects
                   </span>
                   <span className="text-neutral-400 text-base font-normal font-['Poppins'] leading-[30px]">
                     <br />
@@ -177,65 +177,45 @@ function Resume(props) {
             <h2 className="text-white text-[26px] font-medium font-['Poppins']">
               Working Skills
             </h2>
-            <div className="w-full flex flex-col pr-[70px] mt-[30px]">
-              <div>
-                <div className="flex justify-between">
-                  <h2 className="text-neutral-400 text-base font-normal font-['Poppins']">
-                    Responsive
-                  </h2>
-                  <span className="text-right text-neutral-400 text-base font-normal font-['Poppins']">
-                    90%
-                  </span>
-                </div>
-                <div>
-                  <div className="w-full h-1.5 bg-zinc-900 rounded-[18px] mt-4">
-                    <div className="w-[90%] h-1.5 bg-red-400 rounded-[18px]" />
-                  </div>
+            <div className="w-full flex flex-row flex-wrap p-[20px] pt-[35px]">
+              <div className="w-auto m-[20px] h-[34px] px-5 py-[5px] bg-zinc-900 rounded-lg justify-center items-center gap-2.5 inline-flex max-md:m-0 max-md:mt-4 max-md:ml-1">
+                <div className="text-neutral-400 text-base font-normal font-['Poppins']">
+                  Responsive Design
                 </div>
               </div>
-              <div className="mt-[20px]">
-                <div className="flex justify-between">
-                  <h2 className="text-neutral-400 text-base font-normal font-['Poppins']">
-                    Web Design
-                  </h2>
-                  <span className="text-right text-neutral-400 text-base font-normal font-['Poppins']">
-                    85%
-                  </span>
-                </div>
-                <div>
-                  <div className="w-full h-1.5 bg-zinc-900 rounded-[18px] mt-4">
-                    <div className="w-[85%] h-1.5 bg-violet-500 rounded-[18px]" />
-                  </div>
+              <div className="w-auto m-[20px] h-[34px] px-5 py-[5px] bg-zinc-900 rounded-lg justify-center items-center gap-2.5 inline-flex max-md:m-0 max-md:mt-4 max-md:ml-1">
+                <div className="text-neutral-400 text-base font-normal font-['Poppins']">
+                  Using Figma
                 </div>
               </div>
-              <div className="mt-[20px]">
-                <div className="flex justify-between">
-                  <h2 className="text-neutral-400 text-base font-normal font-['Poppins']">
-                    ReactJS
-                  </h2>
-                  <span className="text-right text-neutral-400 text-base font-normal font-['Poppins']">
-                    85%
-                  </span>
-                </div>
-                <div>
-                  <div className="w-full h-1.5 bg-zinc-900 rounded-[18px] mt-4">
-                    <div className="w-[85%] h-1.5 bg-blue-500 rounded-[18px]" />
-                  </div>
+              <div className="w-auto m-[20px] h-[34px] px-5 py-[5px] bg-zinc-900 rounded-lg justify-center items-center gap-2.5 inline-flex max-md:m-0 max-md:mt-4 max-md:ml-1">
+                <div className="text-neutral-400 text-base font-normal font-['Poppins']">
+                  Using AI
                 </div>
               </div>
-              <div className="mt-[20px]">
-                <div className="flex justify-between">
-                  <h2 className="text-neutral-400 text-base font-normal font-['Poppins']">
-                    TailwindCss
-                  </h2>
-                  <span className="text-right text-neutral-400 text-base font-normal font-['Poppins']">
-                    95%
-                  </span>
+              <div className="w-auto m-[20px] h-[34px] px-5 py-[5px] bg-zinc-900 rounded-lg justify-center items-center gap-2.5 inline-flex max-md:m-0 max-md:mt-4 max-md:ml-1">
+                <div className="text-neutral-400 text-base font-normal font-['Poppins']">
+                  React.Js
                 </div>
-                <div>
-                  <div className="w-full h-1.5 bg-zinc-900 rounded-[18px] mt-4">
-                    <div className="w-[95%] h-1.5 bg-yellow-500 rounded-[18px]" />
-                  </div>
+              </div>
+              <div className="w-auto m-[20px] h-[34px] px-5 py-[5px] bg-zinc-900 rounded-lg justify-center items-center gap-2.5 inline-flex max-md:m-0 max-md:mt-4 max-md:ml-1">
+                <div className="text-neutral-400 text-base font-normal font-['Poppins']">
+                  Tailwind
+                </div>
+              </div>
+              <div className="w-auto m-[20px] h-[34px] px-5 py-[5px] bg-zinc-900 rounded-lg justify-center items-center gap-2.5 inline-flex max-md:m-0 max-md:mt-4 max-md:ml-1">
+                <div className="text-neutral-400 text-base font-normal font-['Poppins']">
+                  HTML & CSS
+                </div>
+              </div>
+              <div className="w-auto m-[20px] h-[34px] px-5 py-[5px] bg-zinc-900 rounded-lg justify-center items-center gap-2.5 inline-flex max-md:m-0 max-md:mt-4 max-md:ml-1">
+                <div className="text-neutral-400 text-base font-normal font-['Poppins']">
+                  Next.Js
+                </div>
+              </div>
+              <div className="w-auto m-[20px] h-[34px] px-5 py-[5px] bg-zinc-900 rounded-lg justify-center items-center gap-2.5 inline-flex max-md:m-0 max-md:mt-4 max-md:ml-1">
+                <div className="text-neutral-400 text-base font-normal font-['Poppins']">
+                  Git & Github
                 </div>
               </div>
             </div>

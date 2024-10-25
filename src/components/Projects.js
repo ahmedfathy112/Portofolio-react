@@ -1,5 +1,9 @@
 import { useState } from "react";
-
+import latestNews from "../images/latestNews.png";
+import FullEcommerce from "../images/FullEcommerce.png";
+import CoffeeShop from "../images/coffeeShop.png";
+import stopWatch from "../images/stopWatch.png";
+import Whether from "../images/whether.png";
 function Projects() {
   const [activeCategory, setActiveCategory] = useState("all");
   const handleButtonClick = (category) => {
@@ -7,7 +11,62 @@ function Projects() {
   };
   const CardsData = [
     {
+      id: 7,
+      image:
+        "https://ahmedfathy112.github.io/Shopping-Web/shoppers-delight-logo.png",
+      category: "js",
+      span: "HTML & Css & Js",
+      nameCard: "Shoping Design",
+      url: "https://ahmedfathy112.github.io/Shopping-Web/",
+      repo: "https://github.com/ahmedfathy112/Shopping-Web",
+    },
+    {
       id: 1,
+      image: `${latestNews}`,
+      category: "reactjs",
+      span: "Next.Js Tailwind",
+      nameCard: "صحيفة اليوم",
+      url: "https://news-two-rouge.vercel.app/",
+      repo: "https://github.com/ahmedfathy112/News.git",
+    },
+    {
+      id: 9,
+      image: `${FullEcommerce}`,
+      category: "reactjs",
+      span: "React.Js Tailwind",
+      nameCard: "Full E-commerce",
+      url: "https://ahmedfathy112.github.io/Full-E-commerce/",
+      repo: "https://github.com/ahmedfathy112/Full-E-commerce.git",
+    },
+    {
+      id: 10,
+      image: `${CoffeeShop}`,
+      category: "js",
+      span: "HTML & Css & Js",
+      nameCard: "Coffee Shop",
+      url: "https://ahmedfathy112.github.io/CoffeeShop/",
+      repo: "https://github.com/ahmedfathy112/CoffeeShop.git",
+    },
+    {
+      id: 11,
+      image: `${stopWatch}`,
+      category: "js",
+      span: "HTML & Css & Js",
+      nameCard: "Stop Watch",
+      url: "https://ahmedfathy112.github.io/Online-Stopwatch/",
+      repo: "https://github.com/ahmedfathy112/Online-Stopwatch.git",
+    },
+    {
+      id: 11,
+      image: `${Whether}`,
+      category: "js",
+      span: "HTML & Css & Js",
+      nameCard: "Whether",
+      url: "https://ahmedfathy112.github.io/Weather-Dark/",
+      repo: "https://github.com/ahmedfathy112/Weather-Dark.git",
+    },
+    {
+      id: 8,
       image:
         "https://ahmedfathy112.github.io/island-food/images/island-img/landing.jpg",
       category: "design",
@@ -74,50 +133,6 @@ function Projects() {
       url: "https://ahmedfathy112.github.io/Muslim/",
       repo: "https://github.com/ahmedfathy112/Muslim",
     },
-    {
-      id: 7,
-      image:
-        "https://ahmedfathy112.github.io/Shopping-Web/shoppers-delight-logo.png",
-      category: "js",
-      span: "HTML & Css & Js",
-      nameCard: "Shoping Design",
-      url: "https://ahmedfathy112.github.io/Shopping-Web/",
-      repo: "https://github.com/ahmedfathy112/Shopping-Web",
-    },
-    {
-      id: 8,
-      image:
-        "https://cdn.pixabay.com/photo/2020/05/21/11/13/shopping-5200288_1280.jpg",
-      category: "reactjs",
-      span: "ReactJs & Tailwind",
-      nameCard: "Golden Store",
-      post: "https://www.linkedin.com/posts/ahmed-fathy-20178319a_hello-linkedin-members-id-like-to-share-activity-7132699667070410752-vMTI?utm_source=share&utm_medium=member_desktop",
-    },
-    {
-      id: 9,
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSjSrF9MIstgS3uUG8T5Pj5WHRurqjQlMKFA&usqp=CAU",
-      category: "reactjs",
-      span: "ReactJs & Tailwind",
-      nameCard: "Hoobank",
-      post: "https://www.linkedin.com/posts/ahmed-fathy-20178319a_hello-linkedin-members-new-project-with-activity-7133547174948159488--TeT?utm_source=share&utm_medium=member_desktop",
-    },
-    {
-      id: 10,
-      image: "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
-      category: "reactjs",
-      span: "ReactJs & Tailwind",
-      nameCard: "E-commerce site",
-      post: "https://www.linkedin.com/posts/ahmed-fathy-20178319a_hello-everybody-id-like-to-share-with-activity-7125854546811138048-_00d?utm_source=share&utm_medium=member_desktop",
-    },
-    {
-      id: 11,
-      image: "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-      category: "reactjs",
-      span: "ReactJs",
-      nameCard: "First Project in React",
-      post: "https://www.linkedin.com/posts/ahmed-fathy-20178319a_im-happy-to-share-with-you-my-fisrt-project-activity-7124084405924413440-sVhw?utm_source=share&utm_medium=member_desktop",
-    },
   ];
 
   const filteredCards =
@@ -127,9 +142,9 @@ function Projects() {
 
   return (
     <>
-      <section className="bg-black rounded-[20px] flex flex-col w-full min-h-[270vh] p-[30px] pt-10">
+      <section className="bg-black rounded-[20px] flex flex-col w-full min-h-[270vh] p-[30px] pt-10 max-md:min-h-auto max-md:pb-40">
         <article className="flex flex-row w-full justify-start">
-          <h2 className="text-white text-[40px] font-bold font-['Roboto Slab']">
+          <h2 className="text-white text-[40px] font-bold font-['Roboto Slab'] max-md:mb-10">
             Projects
           </h2>
           <div className="w-[300px] h-[0px] mt-[35px] ml-[20px] border-2 border-red-500"></div>
@@ -161,13 +176,13 @@ function Projects() {
               ReactJS
             </div>
           </nav>
-          <div className="flex flex-row flex-wrap w-full mt-[35px]">
+          <div className="flex justify-center flex-row flex-wrap w-full mt-[35px]">
             {filteredCards.map((card) => {
               return (
                 <>
                   <div
                     key={card.id}
-                    className="w-[100% / 3] h-auto bg-stone-950 rounded-xl border-2 border-neutral-800 p-4 m-5 "
+                    className="w-1/4 h-auto bg-stone-950 rounded-xl border-2 border-neutral-800 p-4 m-5 max-md:w-full"
                   >
                     <img src={card.image} className="h-[200px] w-full"></img>
                     <span className="text-neutral-400 text-xs font-normal font-['Poppins'] capitalize mt-5">
@@ -180,24 +195,24 @@ function Projects() {
                       <a
                         href={card.url}
                         target="_blank"
-                        className="text-center text-white mr-4 text-2xl"
+                        className="text-center text-white mr-4 text-lg"
                       >
                         <i className="fa-solid fa-eye"></i>
                       </a>
                       <a
                         href={card.repo}
                         target="_blank"
-                        className="text-center text-white mr-4 text-2xl"
+                        className="text-center text-white mr-4 text-lg"
                       >
                         <i className="fa-solid fa-book"></i>
                       </a>
-                      <a
+                      {/* <a
                         href={card.post}
                         target="_blank"
                         className="text-center text-white mr-4 text-lg"
                       >
-                        View Post
-                      </a>
+                        <i class="fa-solid fa-newspaper"></i>
+                      </a> */}
                     </div>
                   </div>
                 </>
