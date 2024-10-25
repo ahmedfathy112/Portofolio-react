@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/Portofolio-react/static/css/main.481597f7.css",
-    "main.js": "/Portofolio-react/static/js/main.45da6ee6.js",
+    "main.css": "/Portofolio-react/static/css/main.0fc3d579.css",
+    "main.js": "/Portofolio-react/static/js/main.1347175e.js",
     "static/js/787.a060cd0b.chunk.js": "/Portofolio-react/static/js/787.a060cd0b.chunk.js",
+    "static/media/coffeeShop.png": "/Portofolio-react/static/media/coffeeShop.208626d1f205f8513cd9.png",
+    "static/media/FullEcommerce.png": "/Portofolio-react/static/media/FullEcommerce.652e69ef032bb09bd544.png",
+    "static/media/whether.png": "/Portofolio-react/static/media/whether.f1abce50203d4fbc62a0.png",
+    "static/media/latestNews.png": "/Portofolio-react/static/media/latestNews.4209758a2719d4f1e8db.png",
+    "static/media/myImage.jpg": "/Portofolio-react/static/media/myImage.4e7e69dd394ee91756f0.jpg",
+    "static/media/stopWatch.png": "/Portofolio-react/static/media/stopWatch.92916d0697447fa854d3.png",
     "index.html": "/Portofolio-react/index.html",
-    "main.481597f7.css.map": "/Portofolio-react/static/css/main.481597f7.css.map",
-    "main.45da6ee6.js.map": "/Portofolio-react/static/js/main.45da6ee6.js.map",
+    "main.0fc3d579.css.map": "/Portofolio-react/static/css/main.0fc3d579.css.map",
+    "main.1347175e.js.map": "/Portofolio-react/static/js/main.1347175e.js.map",
     "787.a060cd0b.chunk.js.map": "/Portofolio-react/static/js/787.a060cd0b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.481597f7.css",
-    "static/js/main.45da6ee6.js"
+    "static/css/main.0fc3d579.css",
+    "static/js/main.1347175e.js"
   ]
 }
