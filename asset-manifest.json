@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/Portofolio-react/static/css/main.86ed7e0c.css",
-    "main.js": "/Portofolio-react/static/js/main.49330f83.js",
+    "main.js": "/Portofolio-react/static/js/main.2babacfd.js",
     "static/js/787.a060cd0b.chunk.js": "/Portofolio-react/static/js/787.a060cd0b.chunk.js",
-    "static/media/Shootha Goal.png": "/Portofolio-react/static/media/Shootha Goal.f046ddb144691a9d404b.png",
-    "static/media/StudentHostel.png": "/Portofolio-react/static/media/StudentHostel.6269f983d5e8561b8ffa.png",
-    "static/media/coffeeShop.png": "/Portofolio-react/static/media/coffeeShop.208626d1f205f8513cd9.png",
-    "static/media/FullEcommerce.png": "/Portofolio-react/static/media/FullEcommerce.652e69ef032bb09bd544.png",
-    "static/media/Rawaq.png": "/Portofolio-react/static/media/Rawaq.cf7faa9b11cd886c7460.png",
-    "static/media/whether.png": "/Portofolio-react/static/media/whether.f1abce50203d4fbc62a0.png",
-    "static/media/latestNews.png": "/Portofolio-react/static/media/latestNews.4209758a2719d4f1e8db.png",
-    "static/media/myImage.jpg": "/Portofolio-react/static/media/myImage.4e7e69dd394ee91756f0.jpg",
-    "static/media/stopWatch.png": "/Portofolio-react/static/media/stopWatch.92916d0697447fa854d3.png",
+    "static/media/Shootha Goal.webp": "/Portofolio-react/static/media/Shootha Goal.f046ddb144691a9d404b.webp",
+    "static/media/StudentHostel.webp": "/Portofolio-react/static/media/StudentHostel.6269f983d5e8561b8ffa.webp",
+    "static/media/coffeeShop.webp": "/Portofolio-react/static/media/coffeeShop.208626d1f205f8513cd9.webp",
+    "static/media/FullEcommerce.webp": "/Portofolio-react/static/media/FullEcommerce.652e69ef032bb09bd544.webp",
+    "static/media/Rawaq.webp": "/Portofolio-react/static/media/Rawaq.cf7faa9b11cd886c7460.webp",
+    "static/media/whether.webp": "/Portofolio-react/static/media/whether.f1abce50203d4fbc62a0.webp",
+    "static/media/latestNews.webp": "/Portofolio-react/static/media/latestNews.4209758a2719d4f1e8db.webp",
+    "static/media/myImage.webp": "/Portofolio-react/static/media/myImage.4e7e69dd394ee91756f0.webp",
+    "static/media/stopWatch.webp": "/Portofolio-react/static/media/stopWatch.92916d0697447fa854d3.webp",
     "index.html": "/Portofolio-react/index.html",
     "main.86ed7e0c.css.map": "/Portofolio-react/static/css/main.86ed7e0c.css.map",
-    "main.49330f83.js.map": "/Portofolio-react/static/js/main.49330f83.js.map",
+    "main.2babacfd.js.map": "/Portofolio-react/static/js/main.2babacfd.js.map",
     "787.a060cd0b.chunk.js.map": "/Portofolio-react/static/js/787.a060cd0b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86ed7e0c.css",
-    "static/js/main.49330f83.js"
+    "static/js/main.2babacfd.js"
   ]
 }
