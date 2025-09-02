@@ -21,6 +21,7 @@ function Home() {
                 Frontend Developer || ReactJS || TailwindCss
               </p>
             </div>
+            {/* Social Links */}
             <ul className="flex flex-row list-none flex-wrap justify-center mt-[15px]">
               <li>
                 <a
@@ -30,16 +31,6 @@ function Home() {
                   aria-label="Visit LinkedIn"
                 >
                   <i className="fa-brands fa-linkedin text-sky-900 text-xl font-normal"></i>
-                </a>
-              </li>
-              <li>
-                <a
-                  target="_blank"
-                  href="https://instagram.com/ahmed_fathy_960?igshid=OGQ5ZDc2ODk2ZA=="
-                  className="mr-[15px] p-3 bg-stone-900 rounded-lg mt-[10px]"
-                  aria-label="Visit Insta"
-                >
-                  <i className="fa-brands fa-instagram text-indigo-600 text-xl font-normal"></i>
                 </a>
               </li>
               <li>
@@ -66,6 +57,7 @@ function Home() {
               </li>
             </ul>
           </article>
+          {/* Personal Details */}
           <article className="w-full flex justify-center mt-5">
             <div className="w-[360px] h-auto bg-stone-900 rounded-2xl flex flex-col p-[20px] max-md:w-[100%]">
               <div className="flex flex-row border-b-2 pb-3 border-neutral-700">
@@ -122,6 +114,7 @@ function Home() {
               </div>
             </div>
           </article>
+          {/* CV Link */}
           <article className="flex justify-center w-full z-10">
             <a
               href="https://drive.google.com/file/d/1WJbvBMqGHvF0C7CcqWOq1rEpCEvhoCAK/view?usp=drive_link"
