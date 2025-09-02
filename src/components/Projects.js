@@ -1,9 +1,13 @@
 import { useState } from "react";
-import latestNews from "../images/latestNews.png";
-import FullEcommerce from "../images/FullEcommerce.png";
-import CoffeeShop from "../images/coffeeShop.png";
-import stopWatch from "../images/stopWatch.png";
-import Whether from "../images/whether.png";
+import latestNews from "../images/latestNews.webp";
+import FullEcommerce from "../images/FullEcommerce.webp";
+import CoffeeShop from "../images/coffeeShop.webp";
+import stopWatch from "../images/stopWatch.webp";
+import Whether from "../images/whether.webp";
+import Shootha from "../images/Shootha Goal.webp";
+import StudentHostel from "../images/StudentHostel.webp";
+import rawaq from "../images/Rawaq.webp";
+import HospitalSystem from "../images/SystemHospital.webp";
 function Projects() {
   const [activeCategory, setActiveCategory] = useState("all");
   const handleButtonClick = (category) => {
@@ -11,23 +15,22 @@ function Projects() {
   };
   const CardsData = [
     {
-      id: 7,
-      image:
-        "https://ahmedfathy112.github.io/Shopping-Web/shoppers-delight-logo.png",
-      category: "js",
-      span: "HTML & Css & Js",
-      nameCard: "Shoping Design",
-      url: "https://ahmedfathy112.github.io/Shopping-Web/",
-      repo: "https://github.com/ahmedfathy112/Shopping-Web",
-    },
-    {
       id: 1,
       image: `${latestNews}`,
       category: "reactjs",
       span: "Next.Js Tailwind",
-      nameCard: "صحيفة اليوم",
+      nameCard: "Latest News",
       url: "https://news-two-rouge.vercel.app/",
       repo: "https://github.com/ahmedfathy112/News.git",
+    },
+    {
+      id: 1,
+      image: `${HospitalSystem}`,
+      category: "reactjs",
+      span: "Next.Js Tailwind",
+      nameCard: "Hospital System",
+      url: "https://hosbtal-system.vercel.app/",
+      repo: "https://github.com/ahmedfathy112/Hosbtal-System",
     },
     {
       id: 9,
@@ -37,6 +40,24 @@ function Projects() {
       nameCard: "Full E-commerce",
       url: "https://ahmedfathy112.github.io/Full-E-commerce/",
       repo: "https://github.com/ahmedfathy112/Full-E-commerce.git",
+    },
+    {
+      id: 17,
+      image: `${Shootha}`,
+      category: "reactjs",
+      span: "React.Js Tailwind",
+      nameCard: "Shootha Goal",
+      url: "https://shoothagoal.vercel.app/",
+      repo: "https://github.com/ahmedfathy112/Football_Website",
+    },
+    {
+      id: 18,
+      image: `${StudentHostel}`,
+      category: "reactjs",
+      span: "React.Js Tailwind",
+      nameCard: "Student Hostel",
+      url: "https://ahmedfathy112.github.io/MansouraHousing/",
+      repo: "https://github.com/ahmedfathy112/MansouraHousing",
     },
     {
       id: 10,
@@ -95,15 +116,6 @@ function Projects() {
       repo: "https://github.com/ahmedfathy112/Sure-Wheels",
     },
     {
-      id: 4,
-      image: "https://ahmedfathy112.github.io/shahed-filmak/Rumble.jpg",
-      category: "design",
-      span: "HTML & Css",
-      nameCard: "Aflamak",
-      url: "https://ahmedfathy112.github.io/shahed-filmak/",
-      repo: "https://github.com/ahmedfathy112/shahed-filmak",
-    },
-    {
       id: 5,
       image:
         "https://ahmedfathy112.github.io/My-Portoflio/images/Layer%201.png",
@@ -114,7 +126,7 @@ function Projects() {
       repo: "https://github.com/ahmedfathy112/My-Portoflio",
     },
     {
-      id: 5,
+      id: 200,
       image:
         "https://ahmedfathy112.github.io/Mooviie/images/elbeat%20beaty.jpg",
       category: "js",
@@ -122,6 +134,15 @@ function Projects() {
       nameCard: "Moviees",
       url: "https://ahmedfathy112.github.io/Mooviie/",
       repo: "https://github.com/ahmedfathy112/Mooviie",
+    },
+    {
+      id: 500,
+      image: `${rawaq}`,
+      category: "js",
+      span: "HTML & Css & Js",
+      nameCard: "Rawaq",
+      url: "https://ahmedfathy112.github.io/rawaq-resturant/",
+      repo: "https://github.com/ahmedfathy112/rawaq-resturant",
     },
     {
       id: 6,
@@ -142,7 +163,7 @@ function Projects() {
 
   return (
     <>
-      <section className="bg-black rounded-[20px] flex flex-col w-full min-h-[270vh] p-[30px] pt-10 max-md:min-h-auto max-md:pb-40">
+      <section className="bg-black rounded-[20px] flex flex-col w-full !min-h-[350vh] p-[30px] pt-10  max-md:min-h-auto max-md:pb-40">
         <article className="flex flex-row w-full justify-start">
           <h2 className="text-white text-[40px] font-bold font-['Roboto Slab'] max-md:mb-10">
             Projects
@@ -184,7 +205,12 @@ function Projects() {
                     key={card.id}
                     className="w-1/4 h-auto bg-stone-950 rounded-xl border-2 border-neutral-800 p-4 m-5 max-md:w-full"
                   >
-                    <img src={card.image} className="h-[200px] w-full"></img>
+                    <img
+                      loading="lazy"
+                      src={card.image}
+                      className="h-[200px] w-full"
+                      alt="CardImage "
+                    />
                     <span className="text-neutral-400 text-xs font-normal font-['Poppins'] capitalize mt-5">
                       {card.span}
                     </span>
@@ -195,24 +221,19 @@ function Projects() {
                       <a
                         href={card.url}
                         target="_blank"
-                        className="text-center text-white mr-4 text-lg"
+                        className="text-center text-white mr-4 text-lg bg-orange-500 py-1 px-3 rounded-xl"
+                        aria-label="url"
                       >
-                        <i className="fa-solid fa-eye"></i>
+                        Demo <i className="fa-solid fa-eye"></i>
                       </a>
                       <a
                         href={card.repo}
                         target="_blank"
-                        className="text-center text-white mr-4 text-lg"
+                        className="text-center text-white mr-4 text-lg bg-orange-500 py-1 px-3 rounded-xl"
+                        aria-label="repo"
                       >
-                        <i className="fa-solid fa-book"></i>
+                        Rebo <i className="fa-solid fa-book"></i>
                       </a>
-                      {/* <a
-                        href={card.post}
-                        target="_blank"
-                        className="text-center text-white mr-4 text-lg"
-                      >
-                        <i class="fa-solid fa-newspaper"></i>
-                      </a> */}
                     </div>
                   </div>
                 </>
