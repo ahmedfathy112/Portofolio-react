@@ -8,6 +8,8 @@ import Shootha from "../images/Shootha Goal.webp";
 import StudentHostel from "../images/StudentHostel.webp";
 import rawaq from "../images/Rawaq.webp";
 import HospitalSystem from "../images/SystemHospital.webp";
+import DamroResturant from "../images/damro-resturant.webp";
+import Nursary from "../images/Nursary.webp";
 function Projects() {
   const [activeCategory, setActiveCategory] = useState("all");
   const handleButtonClick = (category) => {
@@ -16,21 +18,43 @@ function Projects() {
   const CardsData = [
     {
       id: 1,
-      image: `${latestNews}`,
-      category: "reactjs",
-      span: "Next.Js Tailwind",
-      nameCard: "Latest News",
-      url: "https://news-two-rouge.vercel.app/",
-      repo: "https://github.com/ahmedfathy112/News.git",
-    },
-    {
-      id: 1,
       image: `${HospitalSystem}`,
       category: "reactjs",
       span: "Next.Js Tailwind",
       nameCard: "Hospital System",
       url: "https://hosbtal-system.vercel.app/",
       repo: "https://github.com/ahmedfathy112/Hosbtal-System",
+      dataos: "fade-right",
+    },
+    {
+      id: 19,
+      image: `${DamroResturant}`,
+      category: "reactjs",
+      span: "Next.Js Tailwind Supabase",
+      nameCard: "Damro Resturants",
+      url: "https://damro-resturants.vercel.app/",
+      repo: "https://github.com/ahmedfathy112/Damro-Resturants.git",
+      dataos: "fade-left",
+    },
+    {
+      id: 22,
+      image: `${Nursary}`,
+      category: "reactjs",
+      span: "Next.Js Tailwind Supabase",
+      nameCard: "Nursary Future",
+      url: "https://nursary-future.vercel.app/",
+      repo: "https://github.com/ahmedfathy112/nursary-future.git",
+      dataos: "fade-up",
+    },
+    {
+      id: 2,
+      image: `${latestNews}`,
+      category: "reactjs",
+      span: "Next.Js Tailwind",
+      nameCard: "Latest News",
+      url: "https://news-two-rouge.vercel.app/",
+      repo: "https://github.com/ahmedfathy112/News.git",
+      dataos: "fade-up-left",
     },
     {
       id: 9,
@@ -40,6 +64,7 @@ function Projects() {
       nameCard: "Full E-commerce",
       url: "https://ahmedfathy112.github.io/Full-E-commerce/",
       repo: "https://github.com/ahmedfathy112/Full-E-commerce.git",
+      dataos: "fade-up-right",
     },
     {
       id: 17,
@@ -49,6 +74,7 @@ function Projects() {
       nameCard: "Shootha Goal",
       url: "https://shoothagoal.vercel.app/",
       repo: "https://github.com/ahmedfathy112/Football_Website",
+      dataos: "fade-down-left",
     },
     {
       id: 18,
@@ -58,6 +84,7 @@ function Projects() {
       nameCard: "Student Hostel",
       url: "https://ahmedfathy112.github.io/MansouraHousing/",
       repo: "https://github.com/ahmedfathy112/MansouraHousing",
+      dataos: "fade-down-right",
     },
     {
       id: 10,
@@ -67,6 +94,7 @@ function Projects() {
       nameCard: "Coffee Shop",
       url: "https://ahmedfathy112.github.io/CoffeeShop/",
       repo: "https://github.com/ahmedfathy112/CoffeeShop.git",
+      dataos: "fade-up",
     },
     {
       id: 11,
@@ -76,15 +104,17 @@ function Projects() {
       nameCard: "Stop Watch",
       url: "https://ahmedfathy112.github.io/Online-Stopwatch/",
       repo: "https://github.com/ahmedfathy112/Online-Stopwatch.git",
+      dataos: "fade-right",
     },
     {
-      id: 11,
+      id: 91,
       image: `${Whether}`,
       category: "js",
       span: "HTML & Css & Js",
       nameCard: "Whether",
       url: "https://ahmedfathy112.github.io/Weather-Dark/",
       repo: "https://github.com/ahmedfathy112/Weather-Dark.git",
+      dataos: "fade-left",
     },
     {
       id: 8,
@@ -95,18 +125,20 @@ function Projects() {
       nameCard: "Island Food",
       url: "https://ahmedfathy112.github.io/island-food/",
       repo: "https://github.com/ahmedfathy112/island-food",
+      dataos: "fade-down",
     },
     {
-      id: 2,
+      id: 3,
       image: "https://ahmedfathy112.github.io/cave-dev/5.jpg",
       category: "js",
       span: "HTML & Css & Js",
       nameCard: "Cave Dev",
       url: "https://ahmedfathy112.github.io/cave-dev/",
       repo: "https://github.com/ahmedfathy112/cave-dev",
+      dataos: "fade-up-right",
     },
     {
-      id: 3,
+      id: 4,
       image:
         "https://ahmedfathy112.github.io/Sure-Wheels/Audi%20background.jpg",
       category: "js",
@@ -114,6 +146,7 @@ function Projects() {
       nameCard: "Sure Wheels",
       url: "https://ahmedfathy112.github.io/Sure-Wheels/",
       repo: "https://github.com/ahmedfathy112/Sure-Wheels",
+      dataos: "fade-up-left",
     },
     {
       id: 5,
@@ -124,6 +157,7 @@ function Projects() {
       nameCard: "Last Portofolio",
       url: "https://ahmedfathy112.github.io/My-Portoflio/",
       repo: "https://github.com/ahmedfathy112/My-Portoflio",
+      dataos: "fade-down-left",
     },
     {
       id: 200,
@@ -134,6 +168,7 @@ function Projects() {
       nameCard: "Moviees",
       url: "https://ahmedfathy112.github.io/Mooviie/",
       repo: "https://github.com/ahmedfathy112/Mooviie",
+      dataos: "fade-down-right",
     },
     {
       id: 500,
@@ -143,6 +178,7 @@ function Projects() {
       nameCard: "Rawaq",
       url: "https://ahmedfathy112.github.io/rawaq-resturant/",
       repo: "https://github.com/ahmedfathy112/rawaq-resturant",
+      dataos: "fade-up",
     },
     {
       id: 6,
@@ -153,6 +189,7 @@ function Projects() {
       nameCard: "Muslim",
       url: "https://ahmedfathy112.github.io/Muslim/",
       repo: "https://github.com/ahmedfathy112/Muslim",
+      dataos: "fade-down",
     },
   ];
 
@@ -204,6 +241,7 @@ function Projects() {
                   <div
                     key={card.id}
                     className="w-1/4 h-auto bg-stone-950 rounded-xl border-2 border-neutral-800 p-4 m-5 max-md:w-full"
+                    data-aos={card.dataos}
                   >
                     <img
                       loading="lazy"

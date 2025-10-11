@@ -5,6 +5,7 @@ function Home() {
     <>
       <section className="bg-black rounded-[20px] flex justify-center w-full min-h-[160vh] p-[30px] pt-10 max-md:max-h-auto">
         <section className="flex flex-col border-2 rounded-3xl w-[50%] pb-[20px] pt-5 min-h-screen max-md:w-full max-md:min-h-[100vh]">
+          {/* My Image */}
           <article className="w-full flex justify-center">
             <img
               src={MyImage}
@@ -12,6 +13,7 @@ function Home() {
               alt="MyImage"
             ></img>
           </article>
+          {/* personal info */}
           <article className="flex justify-center w-full flex-col pt-5">
             <h2 className="text-center text-white text-[26px] font-medium font-['Roboto Slab']">
               Ahmed Fathy
