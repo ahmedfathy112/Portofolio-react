@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 function NavBar() {
   return (
     <>
-      <header className="w-full fixed left-[30%] bottom-1 z-[1000] mt-10 max-md:left-0 ">
+      <header className="w-full fixed left-[30%] bottom-1 z-[1000] mt-10 max-md:left-0 max-md:w-[90%]">
         <nav className="w-[560px] h-28 bg-black rounded-2xl flex flex-row justify-center max-md:w-full">
           <Link
             to="/"

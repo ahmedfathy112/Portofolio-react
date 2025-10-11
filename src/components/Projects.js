@@ -234,19 +234,19 @@ function Projects() {
               ReactJS
             </div>
           </nav>
-          <div className="flex justify-center flex-row flex-wrap w-full mt-[35px]">
+          <div className="flex justify-center flex-row flex-wrap w-full mt-[35px] overflow-x-hidden">
             {filteredCards.map((card) => {
               return (
                 <>
                   <div
                     key={card.id}
-                    className="w-1/4 h-auto bg-stone-950 rounded-xl border-2 border-neutral-800 p-4 m-5 max-md:w-full"
-                    data-aos={card.dataos}
+                    className="w-1/4 h-auto bg-stone-950 rounded-xl border-2 border-neutral-800 p-4 m-5 max-md:w-[90%]"
+                    data-aos={card?.dataos}
                   >
                     <img
                       loading="lazy"
                       src={card.image}
-                      className="h-[200px] w-full"
+                      className="h-[200px] w-[90%]"
                       alt="CardImage "
                     />
                     <span className="text-neutral-400 text-xs font-normal font-['Poppins'] capitalize mt-5">
