@@ -33,7 +33,12 @@ function Contact() {
           </h2>
           <div className="w-[300px] h-[0px] mt-[35px] ml-[20px] border-2 border-red-500"></div>
         </article>
-        <article className="w-[60%]  h-[588px] flex flex-col mt-[35px] translate-x-[30%] bg-black rounded-[20px] border-2 border-neutral-800 p-[30px] pl-[40px] max-md:pl-[20px] max-md:w-full max-md:translate-x-0">
+        <article
+          className="w-[60%]  h-[588px] flex flex-col mt-[35px] mx-auto bg-black rounded-[20px] border-2 border-neutral-800 p-[30px] pl-[40px] max-md:pl-[20px] max-md:w-full max-md:translate-x-0"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-once="true"
+        >
           <div className="w-[486.67px] max-md:w-full">
             <span className="text-neutral-400 text-[25px] font-normal font-['Poppins'] uppercase leading-[41px]">
               I

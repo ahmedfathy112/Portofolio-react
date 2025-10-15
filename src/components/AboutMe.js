@@ -33,7 +33,12 @@ function AboutMe() {
             What I do!
           </div>
           <div className="flex flex-row flex-wrap w-full justify-center">
-            <div className="w-[350px] max-md:h-[370px] min-h-[250px] m-[25px] bg-black rounded-xl border-2 border-neutral-800 flex flex-col p-[18px]">
+            <div
+              className="w-[350px] max-md:h-[370px] min-h-[250px] m-[25px] bg-black rounded-xl border-2 border-neutral-800 flex flex-col p-[18px]"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-once="true"
+            >
               <div className="w-full flex flex-row">
                 <i className="fa-solid fa-code text-fuchsia-400 text-[40px]"></i>
                 <h2 className="text-white text-[26px] font-medium font-['Poppins'] ml-[16px]">
@@ -46,7 +51,12 @@ function AboutMe() {
                 manner, aiming to captivate users' attention"
               </p>
             </div>
-            <div className="w-[350px] max-md:h-[370px] min-h-[250px] m-[25px] bg-black rounded-xl border-2 border-neutral-800 flex flex-col p-[18px]">
+            <div
+              className="w-[350px] max-md:h-[370px] min-h-[250px] m-[25px] bg-black rounded-xl border-2 border-neutral-800 flex flex-col p-[18px]"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+              data-aos-once="true"
+            >
               <div className="w-full flex flex-row">
                 <i className="fa-solid fa-mobile text-yellow-500 text-[40px]"></i>
                 <h2 className="text-white text-[26px] font-medium font-['Poppins'] ml-[16px]">
@@ -60,7 +70,12 @@ function AboutMe() {
                 adaptation."
               </p>
             </div>
-            <div className="w-[350px] max-md:h-[370px] min-h-[250px] m-[25px] bg-black rounded-xl border-2 border-neutral-800 flex flex-col p-[18px]">
+            <div
+              className="w-[350px] max-md:h-[370px] min-h-[250px] m-[25px] bg-black rounded-xl border-2 border-neutral-800 flex flex-col p-[18px]"
+              data-aos="fade-up-left"
+              data-aos-duration="1000"
+              data-aos-once="true"
+            >
               <div className="w-full flex flex-row">
                 <i className="fa-solid fa-chalkboard text-rose-400 text-[40px]"></i>
                 <h2 className="text-white text-[26px] font-medium font-['Poppins'] ml-[16px]">

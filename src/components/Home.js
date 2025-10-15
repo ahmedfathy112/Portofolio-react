@@ -4,7 +4,13 @@ function Home() {
   return (
     <>
       <section className="bg-black rounded-[20px] flex justify-center w-full min-h-[160vh] p-[30px] pt-10 max-md:max-h-auto">
-        <section className="flex flex-col border-2 rounded-3xl w-[50%] pb-[20px] pt-5 min-h-screen max-md:w-full max-md:min-h-[100vh]">
+        <section
+          className="flex flex-col border-2 rounded-3xl w-[50%] pb-[20px] pt-5 min-h-screen max-md:w-full max-md:min-h-[100vh]"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-once="true"
+          data-aos-anchor-placement="top-bottom"
+        >
           {/* My Image */}
           <article className="w-full flex justify-center">
             <img
