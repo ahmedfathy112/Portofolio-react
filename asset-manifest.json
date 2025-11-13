@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portofolio-react/static/css/main.6e46f0d3.css",
-    "main.js": "/Portofolio-react/static/js/main.f8f53453.js",
+    "main.js": "/Portofolio-react/static/js/main.cb4d3686.js",
     "static/js/787.a060cd0b.chunk.js": "/Portofolio-react/static/js/787.a060cd0b.chunk.js",
     "static/media/Shootha Goal.webp": "/Portofolio-react/static/media/Shootha Goal.f046ddb144691a9d404b.webp",
     "static/media/StudentHostel.webp": "/Portofolio-react/static/media/StudentHostel.6269f983d5e8561b8ffa.webp",
@@ -18,11 +18,11 @@
     "static/media/stopWatch.webp": "/Portofolio-react/static/media/stopWatch.92916d0697447fa854d3.webp",
     "index.html": "/Portofolio-react/index.html",
     "main.6e46f0d3.css.map": "/Portofolio-react/static/css/main.6e46f0d3.css.map",
-    "main.f8f53453.js.map": "/Portofolio-react/static/js/main.f8f53453.js.map",
+    "main.cb4d3686.js.map": "/Portofolio-react/static/js/main.cb4d3686.js.map",
     "787.a060cd0b.chunk.js.map": "/Portofolio-react/static/js/787.a060cd0b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6e46f0d3.css",
-    "static/js/main.f8f53453.js"
+    "static/js/main.cb4d3686.js"
   ]
 }
