@@ -10,6 +10,7 @@ import rawaq from "../images/Rawaq.webp";
 import HospitalSystem from "../images/SystemHospital.webp";
 import DamroResturant from "../images/damro-resturant.webp";
 import Nursary from "../images/Nursary.webp";
+import Richi from "../images/Richi.webp";
 function Projects() {
   const [activeCategory, setActiveCategory] = useState("all");
   const handleButtonClick = (category) => {
@@ -25,6 +26,16 @@ function Projects() {
       url: "https://hosbtal-system.vercel.app/",
       repo: "https://github.com/ahmedfathy112/Hosbtal-System",
       dataos: "fade-right",
+    },
+    {
+      id: 24,
+      image: `${Richi}`,
+      category: "reactjs",
+      span: "Next.Js Tailwind Supabase",
+      nameCard: "Richi Glasses",
+      url: "https://richi-glasses.vercel.app/",
+      repo: "https://github.com/ahmedfathy112/Richi-Glasses",
+      dataos: "fade-up",
     },
     {
       id: 19,
