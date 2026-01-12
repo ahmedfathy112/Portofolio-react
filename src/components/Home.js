@@ -5,7 +5,7 @@ function Home() {
     <>
       <section className="bg-black rounded-[20px] flex justify-center w-full min-h-[160vh] p-[30px] pt-10 max-md:max-h-auto">
         <section
-          className="flex flex-col border-2 rounded-3xl w-[50%] pb-[20px] pt-5 min-h-screen max-md:w-full max-md:min-h-[100vh]"
+          className="flex flex-col border-2 rounded-3xl w-[70%] pb-[20px] pt-5 min-h-screen max-md:w-full max-md:min-h-[100vh]"
           data-aos="fade-up"
           data-aos-duration="1000"
           data-aos-once="true"
@@ -15,7 +15,7 @@ function Home() {
           <article className="w-full flex justify-center">
             <img
               src={MyImage}
-              className="h-[200px] rounded-md"
+              className="h-[300px] rounded-md"
               alt="MyImage"
             ></img>
           </article>
@@ -26,7 +26,7 @@ function Home() {
             </h2>
             <div className="w-auto h-[34px] px-5 py-[5px] bg-stone-900 rounded-lg justify-center items-center gap-2.5 inline-flex mt-3 ">
               <p className="text-neutral-400 text-base font-medium font-['Poppins'] max-md:text-center max-md:py-3">
-                Frontend Developer || ReactJS || TailwindCss
+                ReactJS || TailwindCss || NextJS || Supabase
               </p>
             </div>
             {/* Social Links */}
@@ -67,7 +67,7 @@ function Home() {
           </article>
           {/* Personal Details */}
           <article className="w-full flex justify-center mt-5">
-            <div className="w-[360px] h-auto bg-stone-900 rounded-2xl flex flex-col p-[20px] max-md:w-[100%]">
+            <div className="w-[450px] h-auto bg-stone-900 rounded-2xl flex flex-col p-[20px] max-md:w-[100%]">
               <div className="flex flex-row border-b-2 pb-3 border-neutral-700">
                 <div className="bg-black rounded-lg shadow w-[50px] pl-4 pt-2 pb-2">
                   <i className="fa-solid fa-mobile text-pink-600 text-[22px] "></i>

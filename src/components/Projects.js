@@ -11,6 +11,8 @@ import HospitalSystem from "../images/SystemHospital.webp";
 import DamroResturant from "../images/damro-resturant.webp";
 import Nursary from "../images/Nursary.webp";
 import Richi from "../images/Richi.webp";
+import CarRepairCenter from "../images/CarRepair.webp";
+import EcommerceResturant from "../images/E-commerce-resturant.webp";
 function Projects() {
   const [activeCategory, setActiveCategory] = useState("all");
   const handleButtonClick = (category) => {
@@ -26,6 +28,26 @@ function Projects() {
       url: "https://hosbtal-system.vercel.app/",
       repo: "https://github.com/ahmedfathy112/Hosbtal-System",
       dataos: "fade-right",
+    },
+    {
+      id: 23,
+      image: `${CarRepairCenter}`,
+      category: "reactjs",
+      span: "React.Js Tailwind Supabase",
+      nameCard: "Car Repair Center",
+      url: "https://car-repair-center.vercel.app/",
+      repo: "https://github.com/ahmedfathy112/car-repair-center",
+      dataos: "fade-down-left",
+    },
+    {
+      id: 25,
+      image: `${EcommerceResturant}`,
+      category: "reactjs",
+      span: "Next.Js Tailwind Supabase",
+      nameCard: "E-commerce Resturant",
+      url: "https://e-commerce-resturant-peach.vercel.app/",
+      repo: "https://github.com/ahmedfathy112/E-commerce-Resturant",
+      dataos: "fade-down-right",
     },
     {
       id: 24,
