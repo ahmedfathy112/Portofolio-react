@@ -125,8 +125,8 @@ function Home() {
           {/* CV Link */}
           <article className="flex justify-center w-full z-10">
             <a
-              href="https://drive.google.com/file/d/1LM0O8Oryz7_ty1MdI2JQeqwTR-rrpTWR/view?usp=drive_link"
-              download="My-resume.pdf"
+              href="https://drive.google.com/file/d/1shjC_VXkKDy0psx4HHajeykAWE9W6H7M/view?usp=drive_link"
+              download="Ahmed-Fathy`s cv.pdf"
               className="text-center relative bg-gradient-to-r from-red-500 to-pink-600 z-10 w-[300px] h-[80px] mt-[20px] rounded-[40px] cursor-pointer max-md:h-[60px]"
               target="_blank"
               aria-label="DownloadCv"
